@@ -1,0 +1,19 @@
+{
+    "name": "apolm01-009/bdphp-conex",
+    "description": "Demo conexion entre pho y msql",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Danielago29",
+            "email": "psi.andreagomez@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload" : {
+        "psr-4" : {
+            "App\\": "./clases",
+            "Conf\\": "./config",
+            "Models\\": "./models"
+        }
+    }
+}
